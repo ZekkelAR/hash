@@ -31,18 +31,18 @@ def md5():
 
 
 def md4():
-    gblk = raw_input("masukin md4 => ")
+    reks1 = raw_input("masukin md4 => ")
     md4 = hashlib.new('md4')
-    md4.update(gblk)
+    md4.update(reks1)
     print "md4 => ", md4.hexdigest()
     dudung()
 
 
 
 def sha():
-    kntl = raw_input("masukin sha512 => ")
+    reks2 = raw_input("masukin sha512 => ")
     sha = hashlib.new('sha512')
-    sha.update(kntl)
+    sha.update(reks2)
     print "sha512 => ", sha.hexdigest()
     dudung()
 
